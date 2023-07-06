@@ -42,7 +42,7 @@ cd BGINet
 
 ## Quick Start
 
-We have some samples from the [WHU](https://justchenhao.github.io/LEVIR/) dataset in the folder `samples` for a quick start.
+We have some samples from the WHU dataset in the folder `samples` for a quick start.
 
 Firstly, you can download our BGINet pretrained model
 
