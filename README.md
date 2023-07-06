@@ -93,12 +93,6 @@ tion of$ 0.55 m$ and a size range of $1006\times1168$ pixels to $4936\times5224$
 | GZ-CD building change detection dataset | `GZ`  | [website](https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery) |
 |  WHU building change detection dataset  | `WHU` | [website](http://study.rsgis.whu.edu.cn/pages/download/building_dataset.html) |
 
-In order to better reproduce the model, we provide a partitioned dataset(GZ,WHU)
-
-GZ_CD: 链接：https://pan.baidu.com/s/1UHgo9OazWNEhxTbw4WP7RQ 提取码：5xp5 
-
-WHU-CD: 链接：https://pan.baidu.com/s/1bzBbvwKvsmwO5enw5L_3xA 提取码：jrgq 
-
 
 ## License
 
