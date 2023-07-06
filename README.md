@@ -10,7 +10,7 @@ For more ore information, please see our published paper at [arxiv](https://arxi
 
 ## Graph Interaction Module (GIM)
 
-<img src="images/image-20230705091534396.png" alt="image-20230705091534396" style="zoom:60%;" />
+![image-20230706103041124](images/image-20230706103041124.png)
 
 ## Requirements
 
