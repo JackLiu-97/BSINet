@@ -39,7 +39,6 @@ cd BGINet
 
 
 
-
 ## Quick Start
 
 We have some samples from the WHU dataset in the folder `samples` for a quick start.
