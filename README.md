@@ -67,7 +67,7 @@ After that, you can find the prediction results in `${save_path}`.
 To train a model from scratch, use
 
 ```shell
-python train.py --data_path ${train_data_path} --val_path ${val_data_path} --lr ${lr} --batch_size ${-batch_size}
+python train.py --data_path ${train_data_path} --val_path ${val_data_path} --lr ${lr} --batch_size ${-batch_size} 
 ```
 
 
