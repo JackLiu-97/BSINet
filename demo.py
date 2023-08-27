@@ -7,7 +7,7 @@ from PIL import Image
 import transforms as T
 
 warnings.filterwarnings("ignore")
-from models.mynet.BGINet import MyNet
+from models.mynet.BSINet import MyNet
 
 random.seed(47)
 

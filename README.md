@@ -33,7 +33,7 @@ torchvision>=0.10.0
 Clone this repo:
 
 ```shell
-git clone https://github.com/JackLiu-97/BGINet.git
+git clone https://github.com/JackLiu-97/BSINet.git
 cd BSINet
 ```
 

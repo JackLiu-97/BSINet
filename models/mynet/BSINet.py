@@ -104,7 +104,7 @@ class Backbone(nn.Module, KaimingInitMixin):
         self.resnet.fc = Identity()
 
 
-class BGINet(nn.Module):
+class BSINet(nn.Module):
     def __init__(
             self, in_ch, out_ch,
             backbone='resnet18', n_stages=4,

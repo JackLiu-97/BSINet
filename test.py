@@ -3,7 +3,7 @@ import random
 import warnings
 import numpy as np
 import torch
-from models.mynet.BGINet import MyNet
+from models.mynet.BSINet import MyNet
 from PIL import Image
 from sklearn.metrics import confusion_matrix
 import transforms as T

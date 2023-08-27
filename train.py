@@ -7,7 +7,7 @@ import warnings
 from argparse import Namespace
 
 warnings.filterwarnings("ignore")
-from models.mynet.BGINet import BGINet
+from models.mynet.BSINet import BSINet
 from utils.change_data import MyDataset
 from utils.distributed_utils import set_seed
 from utils.distributed_utils import ConfusionMatrix
@@ -39,7 +39,7 @@ def main(args):
                                              num_workers=num_workers,
                                              pin_memory=True
                                              )
-    model = BGINet(3, 2)
+    model = BSINet(3, 2)
     model.to(device)
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
