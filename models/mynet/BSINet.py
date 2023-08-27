@@ -103,6 +103,8 @@ class Backbone(nn.Module, KaimingInitMixin):
         self.resnet.avgpool = Identity()
         self.resnet.fc = Identity()
 
+
+
 class BSINet(nn.Module):
     def __init__(
             self, in_ch, out_ch,
