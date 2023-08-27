@@ -84,9 +84,9 @@ python test.py --ckpt_url ${model_path} --data_path ${test_data_path}
 
 ## Supported Datasets
 
-The WHU Building Change Detection Dataset :The dataconsists of two aerial images of two different time phases and the exact location, which contains $12796$ buildings in $20.5km^2$ with a resolution of $0.2 m$ and a size of $32570\times15354$.We crop the images to $256\times256$ size and randomly divide the training, validation, and test sets:$ 6096/762/762$. 
-		Guangzhou Dataset(GZ-CD) : The dataset was collectedfrom $2006-2019$, covering the suburbs of Guangzhou, China, and to facilitate the generation of image pairs, the Google Earth service of BIGEMAP software was used to collect 19 seasonally varying VHR image pairs with a spatial resolu-
-tion of$ 0.55 m$ and a size range of $1006\times1168$ pixels to $4936\times5224$.We crop the images to $256\times 256$ size and randomly divide the training, validation, and test sets:$ 2876/353/374$
+- The WHU Building Change Detection Dataset :The dataconsists of two aerial images of two different time phases and the exact location, which contains $12796$ buildings in $20.5km^2$ with a resolution of $0.2 m$ and a size of $32570\times15354$.We crop the images to $256\times256$ size and randomly divide the training, validation, and test sets:$ 6096/762/762$. 
+
+- Guangzhou Dataset(GZ-CD) : The dataset was collectedfrom $2006-2019$, covering the suburbs of Guangzhou, China, and to facilitate the generation of image pairs, the Google Earth service of BIGEMAP software was used to collect 19 seasonally varying VHR image pairs with a spatial resolution of$ 0.55 m$ and a size range of $1006\times1168$ pixels to $4936\times5224$.We crop the images to $256\times 256$ size and randomly divide the training, validation, and test sets:$ 2876/353/374$
 
 |                 Dataset                 | Name  |                             Link                             |
 | :-------------------------------------: | :---: | :----------------------------------------------------------: |
