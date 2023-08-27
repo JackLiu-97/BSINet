@@ -298,10 +298,10 @@ def _resnet(
     **kwargs: Any,
 ) -> ResNet:
     model = ResNet(block, layers, **kwargs)
-    if pretrained:
+    # if pretrained:
         # state_dict = load_state_dict_from_url(model_urls[arch], progress=progress)
-        state_dict = torch.load("models/mynet/backbones/resnet18.pth", map_location='cpu')
-        model.load_state_dict(state_dict)
+        # state_dict = torch.load("models/mynet/backbones/resnet18.pth", map_location='cpu')
+        # model.load_state_dict(state_dict)
     return model
 
 
