@@ -2,7 +2,7 @@
 
 Here, we provide the pytorch implementation of the paper: Remote Sensing Image Change Detection with Graph Interaction
 
-For more ore information, please see our published paper at [arxiv](https://arxiv.org/abs/2307.02007).
+For more ore information, please see our published paper at [arxiv](https://arxiv.org/abs/2307.02007). 
 
 ## Overall Architecture
 
