@@ -6,7 +6,7 @@ For more ore information, please see our published paper at [arxiv](https://arxi
 
 ## Overall Architecture
 
-![image-20230827110536151](images/image-20230827110536151.png)
+![image-20230827110536151](images/image-20230827110536151-16931059363161.png)
 
 ## Semantics Interaction Module (SIM)
 
