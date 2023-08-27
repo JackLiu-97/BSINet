@@ -13,7 +13,6 @@ from utils.distributed_utils import set_seed
 from utils.distributed_utils import ConfusionMatrix
 from utils.train_and_eval import train_one_epoch, evaluate, create_lr_scheduler
 
-
 def main(args):
     device = torch.device(args.device if torch.cuda.is_available() else "cpu")
 
