@@ -10,7 +10,7 @@ For more ore information, please see our published paper at [arxiv](https://arxi
 
 ## Semantics Interaction Module (SIM)
 
-![image-20230706103041124](images/image-20230706103041124.png)
+![image-20230706103041124](images/image-20230705091534396.png)
 
 ## Requirements
 
