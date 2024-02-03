@@ -32,14 +32,14 @@ def get_transform(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)):
 def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description="pytorch fcn training")
-    parser.add_argument("--ckpt_url", default=r"D:\Download\SiamUnet_diff_best (6).pth",
+    parser.add_argument("--ckpt_url", default=r"",
                         help="data root")
     parser.add_argument("--modelname", default="",
                         help="data root")
-    parser.add_argument("--data_path", default=r"D:\Datasets\Data_CD\WHU\1\out\3333\test",
+    parser.add_argument("--data_path", default=r"",
                         help="data root")
     parser.add_argument("--device", default="cuda", help="training device")
-    parser.add_argument("--out_path", default=r"C:\LangChao\b_detection\test\result\mynet", help="val root")
+    parser.add_argument("--out_path", default=r"", help="val root")
     args = parser.parse_args()
 
     return args

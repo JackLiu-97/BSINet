@@ -42,13 +42,11 @@ cd BSINet
 
 ## Quick Start
 
-We have some samples from the WHU dataset in the folder `samples` for a quick start.
-
 Firstly, you can download our BSINet pretrained model
 
-WHU-CD： [baidu drive, code: afse](https://pan.baidu.com/s/1L8R1BMYU8VBqlMQWq0eU9Q ) . 
+WHU-CD： [baidu drive, code: afse](https://pan.baidu.com/s/1FzfAzJK0_p159nT7p4x45A) . 
 
-GZ-CD： [baidu drive, code: afse](https://pan.baidu.com/s/1JcexWhZXvh48WJ9X5B1lVg ) . 
+GZ-CD： [baidu drive, code: afse](https://pan.baidu.com/s/1SgH2oJ64uBnJBLv90pixPA) . 
 
 After downloaded the pretrained model, you can put it in `output`.
 

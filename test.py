@@ -30,33 +30,17 @@ def get_transform(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)):
 
 warnings.filterwarnings("ignore")
 
-"""
-SNUnet r"D:\模型权重文件\建筑物\20230412-033255\SNUnet.pth"
-"D:\模型权重文件\建筑物\20230412-072830\FC_EF.pth"
-
-GZ:"D:\模型权重文件\建筑物\GZ\20230531-105508\best.pth" 88.4
-D:\Datasets\Data_CD\CD_Data_GZ\CD_Data_GZ\256\test 
-D:\Download\SiamUnet_diff_best (3).pth 89.2
-"D:\Download\SiamUnet_diff_best (4).pth" val 87.22 最好
-
-WHU:"D:\模型权重文件\建筑物\WHU\20230525-205745\best.pth"
-D:\Datasets\Data_CD\WHU\1\out\test
-
-
-"""
-
-
 def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description="pytorch fcn training")
-    parser.add_argument("--ckpt_url", default=r"D:\Download\SiamUnet_diff_best (6).pth",
+    parser.add_argument("--ckpt_url", default=r"",
                         help="data root")
     parser.add_argument("--modelname", default="",
                         help="data root")
-    parser.add_argument("--data_path", default=r"D:\Datasets\Data_CD\WHU\1\out\3333\test",
+    parser.add_argument("--data_path", default=r"",
                         help="data root")
     parser.add_argument("--device", default="cuda", help="training device")
-    parser.add_argument("--out_path", default=r"C:\LangChao\b_detection\test\result\mynet", help="val root")
+    parser.add_argument("--out_path", default=r"", help="val root")
     args = parser.parse_args()
 
     return args
